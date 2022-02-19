@@ -74,6 +74,7 @@ func providerImporterSubcommands() []func(options ImportOptions) *cobra.Command 
 		newCmdGrafanaImporter,
 		newCmdPagerDutyImporter,
 		newCmdOpsgenieImporter,
+		newCmdUptimeRobotImporter,
 		// Community
 		newCmdKeycloakImporter,
 		newCmdLogzioImporter,
